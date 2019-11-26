@@ -7,6 +7,11 @@ router.get("/emps", (request,responce)=>
 {
     responce.send("Select method");
 })
+router.put("/emps", (request,responce)=>
+{
+    responce.send("Select method");
+})
+
 
 router.listen(9898,()=>
 {
